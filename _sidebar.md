@@ -1,0 +1,15 @@
+* [Home](/README.md)
+* **用户手册**
+* [安装](/user/install.md)
+* [配置文件](/user/configure.md)
+* [管理员领地管理器](/user/oplmgr.md)
+* [领地管理器](/user/lmgr.md)
+* [领地传送](/user/landtp.md)
+* [指令表](/user/commands.md)
+* **开发者文档**
+* [ILAPI](/development/ilapi.md)
+* [语言包](/development/i18n.md)
+---
+* **Others**
+* [捐赠本项目](/CONTRIBUTE.md)
+---
