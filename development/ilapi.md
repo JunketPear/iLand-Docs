@@ -6,12 +6,12 @@
    - startpos - `Vec3` 起点坐标
    - endpos - `Vec3` 终点坐标
    - dimid - `number` 维度ID
- - 返回值 `无`
+ - 返回值 `bool` 是否成功创建
 
 ##### `ILAPI_DeleteLand` - 删除领地
  - 传入参数
    - landId - `string` 领地ID
- - 返回值 `无`
+ - 返回值 `bool` 是否成功删除
 
 ##### `ILAPI_GetPlayerLands` - 获取玩家拥有的领地
  - 传入参数
@@ -19,18 +19,27 @@
  - 返回值
    - `table` 玩家拥有的领地的LandID表
 
-##### `ILAPI_GetNickname` - 获取领地昵称
- - 传入参数
-   - landId - `string` 领地ID
-   - returnIdIfNameEmpty - `bool` 可选参数，为True时如果玩家的领地没有设定昵称，返回一个未命名提示符与LandID，否则只返回未命名提示符，默认为false。
- - 返回值 
-   - `string` 未命名提示符或领地昵称
-
-##### `ILAPI_GetDescribe` - 获取领地备注
+##### `ILAPI_GetLand` - 取得一个领地的全部数据
  - 传入参数
    - landId - `string` 领地ID
  - 返回值
-   - `string` 领地备注（可能为空）
+   - `table` 包含领地全部数据的表
+
+##### `ILAPI_UpdatePermission` - 更新领地权限
+ - 传入参数
+   - landId - `string` 领地ID
+   - permName - `string` 权限名
+   - value - `bool` 允许或不允许
+ - 返回值
+   - `bool` 是否修改成功
+
+##### `ILAPI_UpdateSetting` - 更新领地设定
+ - 传入参数
+   - landId - `string` 领地ID
+   - settingName - `string` 设定名
+   - value - `bool|table` 设置值
+ - 返回值
+   - `bool` 是否修改成功
 
 ##### `ILAPI_GetOwer` - 获取领地主人
  - 传入参数
@@ -50,12 +59,6 @@
    - dimid - `number` 维度ID
  - 返回值
    - `table` 区块内里的列表
-
-##### `ILAPI_GetTpPoint` - 获取领地传送点
- - 传入参数
-   - landId - `string` 领地ID
- - 返回值
-   - `Vec4` 传送点坐标
 
 ##### （暂不可用）`ILAPI_GetDistance` - 获取一个坐标与领地的最短距离
  - 传入参数
@@ -101,7 +104,32 @@
 ##### `ILAPI_GetVersion` - 获取iLand版本号
  - 传入参数 `无`
  - 返回值
-   - `string` 版本号
+   - `number` 版本号
+
+##### `ILAPI_GetTpPoint` - 获取领地传送点
+!> 此API将在近几个版本弃用，请使用`ILAPI_UpdateSetting`
+
+ - 传入参数
+   - landId - `string` 领地ID
+ - 返回值
+   - `Vec4` 传送点坐标
+
+##### `ILAPI_GetNickname` - 获取领地昵称
+!> 此API将在近几个版本弃用，请使用`ILAPI_UpdateSetting`
+
+ - 传入参数
+   - landId - `string` 领地ID
+   - returnIdIfNameEmpty - `bool` 可选参数，为True时如果玩家的领地没有设定昵称，返回一个未命名提示符与LandID，否则只返回未命名提示符，默认为false。
+ - 返回值 
+   - `string` 未命名提示符或领地昵称
+
+##### `ILAPI_GetDescribe` - 获取领地备注
+!> 此API将在近几个版本弃用，请使用`ILAPI_UpdateSetting`
+
+ - 传入参数
+   - landId - `string` 领地ID
+ - 返回值
+   - `string` 领地备注（可能为空）
 
 
 ##### Example
