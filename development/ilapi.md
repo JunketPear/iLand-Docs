@@ -6,7 +6,7 @@
    - startpos - `Vec3` 起点坐标
    - endpos - `Vec3` 终点坐标
    - dimid - `number` 维度ID
- - 返回值 `bool` 是否成功创建
+ - 返回值 `string` 成功创建返回对应的LandID
 
 ##### `ILAPI_DeleteLand` - 删除领地
  - 传入参数
