@@ -18,7 +18,7 @@
 ### 👩‍💻 Feedback
 <br>
 
-Github Issue | [#1](https://github.com/McAirLand/iLand-Core/issues/1)
+Github Issue | [#1](https://github.com/LiteLDev-LXL/iLand-Core/issues/1)
 -|-
 QQ群 | [168611598](https://jq.qq.com/?_wv=1027&k=EKSQnno0)
 Discord | [Join it.](https://discord.gg/fEdM9eRhkH)
