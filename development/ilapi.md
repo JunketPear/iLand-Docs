@@ -49,7 +49,7 @@
 
 ##### `ILAPI_PosGetLand` - 通过坐标查询领地
  - 传入参数
-   - pos - `Vec4` 任意坐标
+   - pos - `Vec4` 任意**整数**坐标
  - 返回值
    - `string` LandID，若没有返回`-1`
 
