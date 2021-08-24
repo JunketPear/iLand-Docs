@@ -74,6 +74,12 @@
  - 返回值
    - `bool` 是否信任
 
+##### `ILAPI_GetEdge` - 获取领地边框坐标
+ - 传入参数
+   - landId - `string` 领地ID
+ - 返回值
+   - `table` 领地边缘坐标数组
+
 ##### `ILAPI_IsLandOwner` - 玩家是否是领地主人
  - 传入参数
    - landId - `string` 领地ID
