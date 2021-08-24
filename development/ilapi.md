@@ -60,12 +60,12 @@
  - 返回值
    - `table` 区块内里的列表
 
-##### （暂不可用）`ILAPI_GetDistance` - 获取一个坐标与领地的最短距离
+##### `ILAPI_GetDistance` - 获取一个坐标与领地边框的最短距离
  - 传入参数
    - landId - `string` 领地ID
    - pos - `Vec4` 任意坐标
  - 返回值
-   - `number` 距离
+   - `table` 距离
 
 ##### `ILAPI_IsPlayerTrusted` - 玩家是否被领地信任
  - 传入参数
