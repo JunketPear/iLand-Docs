@@ -23,7 +23,5 @@
 命令 | 等级 | 解释
 -|-|-
 `无子命令` | *Console* | 打印领地介绍信息
-`op <xuid>` | *Console* | 将玩家设置为领地管理员（提供XUID） 
-`deop <xuid>` | *Console* | 取消某玩家的领地管理员身份（提供XUID） 
-`test` | *Console* | 运行领地性能测试（测试中）
-`update` | *Console* | 升级iLand（测试中）
+`op <ID>` | *Console* | 将玩家设置为领地管理员
+`deop <ID>` | *Console* | 取消某玩家的领地管理员身份
