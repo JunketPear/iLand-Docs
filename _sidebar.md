@@ -5,6 +5,7 @@
 * [管理员领地管理器](/user/oplmgr.md)
 * [领地管理器](/user/lmgr.md)
 * [领地传送](/user/landtp.md)
+* [监听器管理器](/user/listenerMgr.md)
 * [指令表](/user/commands.md)
 * **开发者文档**
 * [ILAPI](/development/ilapi.md)
