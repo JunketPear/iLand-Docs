@@ -16,7 +16,9 @@ onDestroyBlock | 关闭后不再干涉玩家破坏方块 | ⛔
 onPlaceBlock | 关闭后不再干涉玩家放置方块 | ⛔
 onUseItemOn | 关闭后对大部分功能性方块控制失效 | ⛔
 onAttack | 关闭后不再干涉玩家攻击行为 | ⛔
-onExplode | 关闭后不再干涉游戏内爆炸 | ℹ️
+onExplode | 关闭后不再干涉游戏内常规爆炸 | ℹ️
+onBedExplode | 关闭后不再干涉床爆炸 | ℹ️
+onRespawnAnchorExplode | 关闭后不再干涉重生锚爆炸 | ℹ️
 onTakeItem | 关闭后不再干涉捡起物品行为 | ⛔
 onDropItem | 关闭后不再干涉丢弃物品行为 | ⚠️
 onBlockInteracted | 关闭后大部分功能性方块控制失效 | ⛔
