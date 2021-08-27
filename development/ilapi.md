@@ -159,7 +159,14 @@
  - 返回值
    - `bool` 是否操作成功
 
-##### `ILAPI_RemoveTrust` - 更新领地设定
+##### `ILAPI_RemoveTrust` - 删除领地信任
+ - 传入参数
+   - landId - `string` 领地ID
+   - xuid - `string` 目标玩家的XUID
+ - 返回值
+   - `bool` 是否操作成功
+
+##### `ILAPI_SetOwner` - 设置领地主人
  - 传入参数
    - landId - `string` 领地ID
    - xuid - `string` 目标玩家的XUID
