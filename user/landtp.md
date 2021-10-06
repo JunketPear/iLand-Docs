@@ -10,5 +10,5 @@
 ![](https://i.loli.net/2021/07/02/XjQDFtq16K8z4Bu.png)
 
 ### 传送点（TpPoint）
- - 可以在对应领地上使用`/land point`设置
+ - 可以在对应领地上使用`/land tp set`设置
  - **v2.30**后，若传送点坐标为起始坐标（未设置传送点），将中止传送

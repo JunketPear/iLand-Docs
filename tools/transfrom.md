@@ -2,7 +2,7 @@
  - 非常感谢您选择iLand，为了方便您从其他领地系统转移数据，我们编写了相关转移脚本。
 
 ### Supported
- - 👉 [**Github**](https://github.com/McAirLand/iLand-Converter) 参考有关README使用
+ - 👉 [**Github**](https://github.com/LiteLDev-LXL/iLand-Converter) 参考有关README使用
 
 序号 | 插件
 -|-

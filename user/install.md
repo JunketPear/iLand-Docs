@@ -8,7 +8,7 @@
 
  - 已配置完成LiteLoader的最新BDS服务器
  - 已安装最新的LiteXLoader，并正常使用
- - 去[Github](https://www.minebbs.com/resources/iland-gui-30.2162/)或[Minebbs](https://github.com/McAirLand/iLand-Core/releases)下载最新发布版本
+ - 去[Minebbs](https://www.minebbs.com/resources/iland-gui-30.2162/)或[Github](https://github.com/LiteLDev-LXL/iLand-Core/releases)下载最新发布版本
 
 ### 安装
 
@@ -21,7 +21,7 @@
  - 观察开服日志
 
 ```
-[ILand] |INFO| Powerful land plugin is loaded! Ver-2.21,
+[ILand] |INFO| Powerful land plugin is loaded! Ver-2.40,
 [ILand] |INFO| By: RedbeanW, License: GPLv3 with additional conditions.
 [LiteXLoader.Lua][Info] iland-core.lua loaded.
 ...

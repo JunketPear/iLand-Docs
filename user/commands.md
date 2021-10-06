@@ -13,8 +13,9 @@
 `a` | player | 选择新领地A点
 `b` | player | 选择新领地B点
 `buy` | player | 购买刚圈好的领地
-`point` | player | 选定领地传送点
 `tp` | player | 打开领地传送GUI
+`tp set` | player | 设定站立点为领地传送点
+`tp rm` | player | 移除脚下的领地的传送点
 `mgr` | landMgr | 管理全服领地，编辑配置等
 `mgr selectool` | landMgr | 设置圈地工具
 
